@@ -1,13 +1,13 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	A controller GUI for the run-time options of QEMU computer emulator
-#Summary(pl.UTF-8):	-
+Summary(pl.UTF-8):	GUI sterujące dla opcji uruchomieniowych emulatora komputera QEMU
 Name:		qemuctl
 Version:	0.2
 Release:	1
 License:	GPL v2
 Group:		Applications/Emulators
 Source0:	http://dl.sourceforge.net/qemuctl/%{name}%{version}.tar.gz
-# Source0-md5:	26cad0b969fd83794940fd8ba68a1eb6	
+# Source0-md5:	26cad0b969fd83794940fd8ba68a1eb6
 Patch0:		%{name}-Makefile.patch
 URL:		http://qemuctl.sourceforge.net/
 BuildRequires:  rpm-perlprov >= 4.1-13
@@ -19,7 +19,10 @@ A controller GUI for the run-time options of QEMU computer emulator.
 It can be used as a stand-alone application or as a plug-in for Qemu
 Launcher. (Only x86 PC emulator is supported.)
 
-#%description -l pl.UTF-8
+%description -l pl.UTF-8
+GUI sterujące dla opcji uruchomieniowych emulatora komputera QEMU.
+Może być używane jako samodzielna aplikacja lub wtyczka dla Qemu
+Launchera. Obsługiwany jest tylko emulator PC x86.
 
 %prep
 %setup -q -n %{name}%{version}
