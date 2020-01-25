@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.perl
 Summary:	A controller GUI for the run-time options of QEMU computer emulator
 Summary(pl.UTF-8):	GUI sterujące dla opcji uruchomieniowych emulatora komputera QEMU
 Name:		qemuctl
